@@ -1,7 +1,6 @@
 *.iml
 .gradle
 .idea
-gradle
 app/build
 image_picker_lib/build
 /local.properties
@@ -15,3 +14,4 @@ image_picker_lib/build
 /build
 /captures
 .externalNativeBuild
+app/libs/
