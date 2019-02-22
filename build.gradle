@@ -18,6 +18,8 @@ allprojects {
         google()
         jcenter()
         maven { url "https://jitpack.io" }
+        maven { url "http://10.13.3.10:8081/nexus/content/repositories/releases/" }
+        maven { url "http://10.13.3.10:8081/nexus/content/repositories/snapshots/" }
     }
     tasks.withType(Javadoc) { // 新增
         options.addStringOption('Xdoclint:none', '-quiet')
