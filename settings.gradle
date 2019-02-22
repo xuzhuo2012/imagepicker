@@ -1,1 +1,1 @@
-include ':app', ':image_picker_lib', ':wumart_android_lib'
+include ':app', ':image_picker_lib'
